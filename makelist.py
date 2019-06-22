@@ -3,6 +3,7 @@ from sh import bash
 import sys
 
 listencoded = [];
+lineOfencoded = [];
 code = [];
 encoded = "";
 line = "";
