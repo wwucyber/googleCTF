@@ -1,0 +1,11 @@
+run 
+
+python3 makelist.py
+
+then open codes.csv with libreoffice and removed citie names
+
+save as codesOnly.csv
+
+run bash rmQuotes.sh
+
+put codesOnlyNoQuotes.txt into burpsuite 
