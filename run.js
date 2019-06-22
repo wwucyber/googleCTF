@@ -32,8 +32,8 @@ function AjaxFormPost(messageIn) {
       console.log(datasend);
 }
 
-AjaxFormPost('Paris')
-console.log('hi');
-console.log(system.args[1]);
+AjaxFormPost(system.args[1])
+//console.log('hi');
+//console.log(system.args[1]);
 
 phantom.exit();
