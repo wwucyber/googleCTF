@@ -12,9 +12,11 @@ j = 0;
 
 print ( "running");
 
-with open('list-cities.txt') as input_file:
+with open('citiesSortedNoQuotes.csv') as input_file:
     with open('codes.csv', 'w') as output_file:
         for i, line in enumerate(input_file):
+            if (i % 9) == 0:
+                print (i);
             line = line.rstrip()
             if line:
                 #print (line);
