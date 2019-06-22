@@ -1,0 +1,34 @@
+<html>
+ <head>
+   <meta charset="utf-8">
+   <title>Blind association</title>
+
+   <style>
+    body {
+      background-color:black;
+      color: white;
+      font-family: Helvetica, Arial;
+    }
+   </style>
+ </head>
+ <meta name="editor" content="libreoffice">
+ <meta property="og:title" content="Association of blind people" />
+ <meta property="og:description" content="Find the closest association" />
+ <body>
+     <center><br/> <br/> 
+        <img id="blind" src="https://bnv.web.ctfcompetition.com/static/logo.png"><br/> <br/> 
+          <p>Please use the search engine below to find the closest association near you.</p>
+        <form action="javascript:AjaxFormPost();" style="color:white;">
+            <p>City: <select id="message" name="Type">
+                    <option value="zurich">Zurich</option>
+                    <option value="bangalore">Bangalore</option>
+                    <option value="paris">Paris</option>
+                    </select> </p>
+            <p><input type="submit" value="Submit"></p> 
+            <p><textarea id="database-data" style="width: 700px; height: 80px; background: transparent; border: none; outline: none; color:white; font-family: Helvetica, Arial; font-size: 18px"></textarea></p> 
+        </form>
+     </center>
+
+     <script src="https://bnv.web.ctfcompetition.com/static/post.js"></script>
+   </body>
+</html>
