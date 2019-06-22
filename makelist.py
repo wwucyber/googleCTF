@@ -13,7 +13,7 @@ j = 0;
 print ( "running");
 
 with open('list-cities.txt') as input_file:
-    with open('codes.cvs', 'w') as output_file:
+    with open('codes.csv', 'w') as output_file:
         for i, line in enumerate(input_file):
             line = line.rstrip()
             if line:
