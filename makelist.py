@@ -30,7 +30,7 @@ with open('list-cities.txt') as input_file:
                 #print (encoded);
                 code = encoded.split('"', 4 )
                 #print (code[3]);
-                output = line + "," + code[3].rstrip() + "\n";
+                output = '"' + line + '","' + code[3].rstrip() + '"\n';
                 #print (output);
                 output_file.write(output)
 #{"message":"1010140125015013450"}
